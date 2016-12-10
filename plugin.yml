@@ -10,6 +10,6 @@ commands:
         usage: /rules
         description: Displays the list of the server rules
 permissions:
-    kenygamer.rules:
+    command.rules:
         default: true
         description: Allow players to use the /rules command
