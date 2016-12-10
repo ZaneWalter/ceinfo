@@ -1,0 +1,15 @@
+name: ServerRules
+description: Lets players know the server rules using the /rules command.
+author: kenygamer
+main: kenygamer\ServerRules\Main
+load: POSTWORLD
+version: 1.0.0
+api: [1.8.0]
+commands:
+    rules:
+        usage: /rules
+        description: Displays the list of the server rules
+permissions:
+    kenygamer.rules:
+        default: true
+        description: Allow players to use the /rules command
